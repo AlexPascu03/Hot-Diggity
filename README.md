@@ -35,7 +35,7 @@
 
 
 ## Screenshots
-![scr 1](/Screenshots/1.png?raw=true "Optional Title")
+![scr 1](../Screenshots/1.png?raw=true)
 
 
 
@@ -55,7 +55,7 @@ I'm not satisfied with the mobile responsive look but it will be improved and so
 
 Room for improvement:
 - PayPal integration works but it's not the right way
-- General look of the website
+- General looks of the website
 
 To do:
 - Add to favourites feature
