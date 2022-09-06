@@ -35,7 +35,7 @@
 
 
 ## Screenshots
-![scr 1](../Screenshots/1.png?raw=true)
+![scr 1](./Screenshots/1.PNG?raw=true)
 
 
 
