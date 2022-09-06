@@ -35,8 +35,8 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+![scr 1](/Screenshots/1.png)
+
 
 
 ## Setup
