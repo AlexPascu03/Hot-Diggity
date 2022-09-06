@@ -1,0 +1,72 @@
+.modal{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #6f4518bd;
+  padding: 50px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(27, 27, 27, 0.842);
+  z-index:1000;
+}
+
+.modal h4, .modal img{
+  margin-bottom: 15px;
+  padding: 5px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  
+}
+
+.modal img{
+  width: 150px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.modal-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 300px;
+
+} 
+
+.delete-button{
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+  width: 58px;
+  width: 140px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.close-button{
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  width: 58px;
+  width: 140px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+}
+

@@ -1,0 +1,254 @@
+
+.main-photo  {
+  max-height: 30vw;
+}
+
+.details-container {
+  background: url(https://media.newyorker.com/photos/606b51c2313f23423168acbe/master/pass/Brewer-CompanionDogApplication.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 0px auto; 
+  justify-items: center;
+  justify-content: center;
+  height: 120vh;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+}
+
+.headers{
+  font-size: 25px;
+}
+
+.header h1{
+  margin-left: 250px;
+  font-size: 30px;
+}
+
+.header :first-child{
+  height: 40px;
+  color: black;
+}
+
+.dog-container {
+  background-color: rgba(255, 255, 255, 0.507);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+  align-items: center;
+  max-width: 700px;
+}
+
+.user-container img{
+border-radius: 20px;
+width: 150px;
+margin: auto;
+}
+
+.user-container  {
+  background-color: rgba(255, 255, 255, 0.507);
+  max-height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-container > h2:first-of-type{
+  margin-top: 15px;
+}
+
+
+.functions-container .del-btn{
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.functions-container .edit-btn{
+  background-color: rgb(255, 230, 0);
+  color: rgb(255, 255, 255);
+  height: 30px;
+  width: 150px;
+}
+
+.short-info {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35px;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 5px;
+  padding: 5px;
+
+}
+
+.short-info > p{
+  border: 2px solid black ;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgba(240, 248, 255, 0.829);
+}
+
+.description{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black ;
+  border-radius: 20px;
+  padding: 10px;
+  max-width: 675px;
+  background-color: rgba(240, 248, 255, 0.829);
+  text-overflow: ellipsis;
+}
+
+.description p{
+  word-wrap: break-word;
+  max-width: 675px;
+
+}
+
+/*                    MODAL                          */
+.modal {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(44, 44, 44, 0.5);
+  background-size: 100vw;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  border-radius: 10px;
+  margin: auto;
+  width: 50vw;
+  max-height: 50vw;
+  overflow: auto;
+}
+
+.modal-content>h1 {
+  padding-left: 20px;
+  margin: 0px;
+}
+
+.modal-content>p {
+  padding: 16px 16px;
+  border-style: solid;
+  border-color: rgba(44, 44, 44, 0.5);
+  border-width: 1px 0px;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding: 0px 16px 16px 0px;
+}
+
+.btn-secondary {
+  margin-right: 5px;
+}
+
+.cross {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.cross-button {
+  border: none;
+  background-color: #ffffff;
+  padding: 5px 15px 0 0;
+}
+
+
+@media only screen and (max-width: 1028px) {
+  .details-container {
+    background: url(https://media.newyorker.com/photos/606b51c2313f23423168acbe/master/pass/Brewer-CompanionDogApplication.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:  1fr;
+    margin: 0px auto; 
+    justify-items: center;
+    justify-content: center;
+    height: 120vh;
+    padding-left: 5px;
+  }
+
+  
+
+  .user-container{
+    margin-top: 10px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 426px) {
+  *{
+    font-size: 10px;
+  }
+
+  .main-photo{
+    max-width:80vw;
+    max-height: 250px;
+  }
+  .main-photo img{
+    max-height: 100vw;
+  }
+
+  .header{
+    max-width: 300px;
+  }
+
+  .header h1{
+    margin-left: 70px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+  
+  .details-container {
+    background: url(https://media.newyorker.com/photos/606b51c2313f23423168acbe/master/pass/Brewer-CompanionDogApplication.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px auto; 
+    justify-items: center;
+    justify-content: center;
+    height: 120vh;
+  }
+
+  .description{
+    margin-top: 5px;
+  }
+  .short-info{
+    gap: 1px;
+  }
+
+  .short-info p {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  .dog-container{
+    max-width: 300px;
+  }
+}

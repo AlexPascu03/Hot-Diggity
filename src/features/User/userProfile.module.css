@@ -1,0 +1,61 @@
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.24);
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-container{
+  /* margin-left: 25vw;
+  margin-right: 25vw; */
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form-container select{
+  width: 203px;
+}
+
+.main-container img{
+  /* width: 300px;
+  height: 400px; */
+  border-radius: 10px;
+}
+.main-container p{
+  border: 1px solid rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #ebc99988;
+}
+
+.more-functions{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.more-functions button{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: red;
+  color: white;
+    
+}
+
+article .dog-card {
+  max-width: 150px;
+}
+
+.more-functions :last-child{
+  background-color: #ebc999;
+}
+@media screen and (max-width:426px) {
+  .form-container select{
+    width: 123px;
+  }
+}

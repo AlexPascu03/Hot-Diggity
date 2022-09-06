@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  background-image:url(https://previews.123rf.com/images/nalinn/nalinn1504/nalinn150400445/38551235-animal-paw-prints-seamless-background-with-brown-and-white-paw-prints-and-dog-bones.jpg)
+}

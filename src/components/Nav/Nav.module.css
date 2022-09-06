@@ -1,0 +1,125 @@
+li a{
+  text-decoration: none;
+  color: #ebc999;
+  font-size: 20px;
+  padding: 5px;
+  transition: 0.2s;
+}
+
+.active {
+  color: #cd7700;
+  border-left: 1px solid #cd7700;
+  border-right: 1px solid #cd7700;
+
+}
+
+.list-item a:hover{
+  color: white;
+  border-bottom: 1px solid #cd7700;
+  background: rgb(241,129,1);
+  background: linear-gradient(180deg, rgba(241,129,1,0.21052170868347342) 0%, rgba(255,255,255,0) 14%, rgba(255,255,255,0) 75%, rgba(241,129,1,0.20772058823529416) 100%);
+}
+.navigation {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: #4d3227;
+  max-width: 100%;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  width: 100%;
+  gap: 1vw;
+  align-items: center;
+  padding: 5px;
+}
+
+.center-ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.push-right {
+  margin-left: auto;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-picture img{
+  max-width: 40px;
+  border-radius: 40px;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  font-size: 18px;
+  background-color: #ebbd69;
+  color: white;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 775px) {
+  *{
+    font-size: 1rem;
+  }
+
+  .navigation{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .left-ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    background-color: #4d3227;
+    position: absolute;
+    padding: 0;
+    align-items: center;
+    z-index: 1;
+    gap: 0;
+  }
+
+  .center-ul{
+    display: none;
+  }
+
+  .list-item{
+    width: 100%;
+    height: 45px;
+    border-top: 1px solid white;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    display: block;
+    margin-top: 12px;
+
+  }
+}
+
