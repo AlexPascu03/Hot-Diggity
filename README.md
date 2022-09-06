@@ -36,6 +36,8 @@
 
 ## Screenshots
 ![scr 1](./Screenshots/1.PNG?raw=true)
+![scr 2](./Screenshots/2.PNG?raw=true)
+![scr 3](./Screenshots/3.PNG?raw=true)
 
 
 
